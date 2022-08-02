@@ -31,8 +31,8 @@
     ];
     
     /**
-     * function que devuelve un 20% si es electrico o fire sino devuelve
-     * el 0.05 si es cualquier otro
+     * function que devuelve el poder mas un  20% si es electrico o fire sino devuelve el poder con un 5% mas al poder
+     * si es cualquier otro
      * @param pokemons array from pokemons
      * @returns name and morePower
      */
