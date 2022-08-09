@@ -15,7 +15,12 @@
     console.log(maxValue(numers));
     
     
-    // find the most frequency  values of array
+    /**
+     * funcion que retorna la frecuencia que sale un number
+     * @param arr data array
+     * @param n array length
+     * @returns 
+     */
     function mostFrequent(arr, n)
     {
            
