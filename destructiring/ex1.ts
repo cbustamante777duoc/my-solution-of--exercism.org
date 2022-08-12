@@ -56,5 +56,7 @@
     calculatePokemons(pokemons)
     console.log(calculatePokemons(pokemons));
 
+    
+
 })()
 
