@@ -32,19 +32,50 @@
 
     //Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while. 
 
-    const to100 = (numero: number=0, hasta:number) => {
+    const to100 = (numero: number = 0, hasta: number) => {
 
         while (numero < hasta) {
-    
+
             console.log(numero);
-             numero++;
-    
+            numero++;
+
         }
-    
+
         return numero
     }
-    
-    console.log(to100(1,20));
+
+    console.log(to100(1, 20));
+
+
+    //Create a function that takes an array containing only numbers and return the first element.
+
+    let numeros: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    const secondNumber = (array: number[]) => {
+
+
+        let first = array[0];
+
+        return first
+
+    }
+
+    console.log(secondNumber(numeros));
+
+    //You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+
+    function points(twoPointers, threePointers) {
+
+        let pointTwo = twoPointers * 2;
+        let pointTree = threePointers * 3;
+        let sum = pointTwo + pointTree;
+        return sum;
+    }
+
+    console.log(points(38, 8));//100
+    console.log(points(7, 5));//29
+    console.log(points(1, 1));//5
+
+
 
 
 
