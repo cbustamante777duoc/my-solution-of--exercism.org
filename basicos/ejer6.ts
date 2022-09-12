@@ -3,7 +3,7 @@
 
     //guardar en una lista todos los numeros pares y otra lista los numeros impares
 
-    const guardarParesImpares = (numeroCiclo: number) => {
+    const guardarParesImpares = (numeroCiclo: number):string => {
 
         let listaPares: number[] = [];
         let listaImpares: number[] = [];
@@ -22,9 +22,7 @@
         la lista los pares son:${listaPares}
         la lista los Inpares son:${listaImpares}
         `
-
         return mensaje
-
     }
     console.log(guardarParesImpares(10));
     // la lista los pares son:2,4,6,8,10 
