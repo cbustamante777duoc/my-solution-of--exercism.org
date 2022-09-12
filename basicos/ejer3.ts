@@ -1,6 +1,6 @@
 (() => {
 
-    //crear una funcion que cuenta los impares y los numeros pares segun cuando ciclo se ingresan en la funcion y que sume la cantidad de impares final y de impares final
+    //crear una funcion que cuenta los impares y los numeros pares segun cuando ciclo se ingresan en la funcion y que sume la cantidad de pares final y de impares final
 
     const contadorParesImpares = (numeroCiclo: number) => {
 
