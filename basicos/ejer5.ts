@@ -11,6 +11,4 @@
     console.log(largeOfNumber(1000000));//el largo del numero es 7 
 
 
-    
-
 })()
