@@ -13,6 +13,6 @@
 
     }
 
-    console.log(sum(100));
+    console.log(sum(10)); //55
 
 })();
