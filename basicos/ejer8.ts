@@ -17,9 +17,6 @@
         for (let i = 0; i <numero ; i++) {
             let dado1 =Math.round( Math.random()* (6-1)*1)
             let dado2 =Math.round( Math.random()* (6-1)*1)
-            listaRandom.push(dado1);
-            listaRandom2.push(dado2);
-
     
             if(dado1==dado2) {
                 contador++;
