@@ -32,8 +32,13 @@ export const students = [
   ];
 
 
+  //filtrar por edad mayor a 21
   const filtarEdad = students.filter((item)=> item.age > 21);
+  //encontrar al students con el nombre Ryan
   const findRyan = students.find((item)=> item.name == "Ryan");
+  //filtrar por todos los trabajadores que son Web Development
   const filterWebDevelpoment = students.filter((item)=> item.course == "Web Development");
+  //preguntar si existe un student con empienza con G
   const preguntaPorGName = students.some((student) => student.name.includes("G"));
   console.log(preguntaPorGName); //false
+
