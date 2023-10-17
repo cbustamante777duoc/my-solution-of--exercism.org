@@ -21,6 +21,7 @@
     }
 
     const myArray = [[1, 2, 3], [4, 5, 6]];
+    const myArray2 = [[1, 1, 1], [2, 2, 2]];
     const sum = sumArray(myArray);
 
     console.log(sum);
