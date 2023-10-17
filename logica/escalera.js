@@ -81,7 +81,7 @@ const generateStaircase = (numero) => {
     }
     
     // Return the complete staircase
-    return staircase;
+    return staircase ;
 }
 
 })
